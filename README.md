@@ -34,3 +34,16 @@ Category:->
     "id": 2
 }
 )
+
+Product:->
+1) To insert a new record there is link     :     http://localhost:8080/api/products
+
+ 2) Find All:
+   To show all records there is link    :     http://localhost:8080/api/products/page=2
+
+3) delete:
+   To delete a record there is link     :    http://localhost:8080/api/products
+  (It takes products id i.e pid into request param    eg. http://localhost:8080/api/products?a=1 )
+
+4) update:
+   To update a record there is link  :     http://localhost:8080/api/products
